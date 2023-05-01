@@ -16,8 +16,10 @@ for( i = 0; i < users.length; i++) {
 users.forEach(function(elemento) {
     console.log(elemento.name)
 })
+
 users.forEach((e)=>repo.set(e.id, new User(e) ))
 
 console.log(repo)
+
 
 
